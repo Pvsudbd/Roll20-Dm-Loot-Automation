@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link href="src/output.css" rel="stylesheet">
+</head>
+
+
+<body class="flex justify-center items-center min-h-screen bg-gray-900 bg-[url(/img/Oy.svg)] bg-repeat">
+    <div class="h-150 w-11/12 flex flex-col justify-start items-center pt-6 border border-b-black bg-gray-600 rounded-xl" >
+        <div>
+            <h1 class="text-xl text-white font-bold font-['Plus_Jakarta_Sans']">LOOT AUTOMATION</h1>
+        </div>
+
+        <div class="w-3/4 h-px bg-gray-400 mt-4"></div>
+
+        <!-- Grid Pertama -->
+        <div class="grid grid-cols-5 grid-rows-5 gap-4 w-full p-6">
+            <div class="col-span-3 row-span-4 bg-linear-to-br from-amber-400 to-amber-600 p-6 min-h-75 rounded-xl shadow-lg flex flex-col">
+                <h2 class="text-xl font-bold mb-4 text-white text-center font-['Plus_Jakarta_Sans']">Hasil Lootingan</h2>
+
+                <div id="Lootingan" class="flex-1 overflow-y-auto space-y-3 max-h-70 [&>div]:h-15 [&>div]:w-185">
+                        <div class="bg-white rounded-xl"></div>
+                        <div class="bg-white rounded-xl"></div>
+                        <div class="bg-white rounded-xl"></div>
+                        <div class="bg-white rounded-xl"></div>
+                        <div class="bg-white rounded-xl"></div>
+                </div>
+                
+            </div>
+
+            <!-- Grid Kedua -->
+        <div class="col-span-2 row-span-4 col-start-4 text-white bg-red-500 p-4 min-h-75 rounded-xl flex flex-col">
+
+                <h2 class="text-xl font-bold text-white text-center font-['Plus_Jakarta_Sans']">
+                    Background Loot
+                </h2>
+
+                
+                <div class="flex-1 mt-5 overflow-y-auto max-h-70 space-y-5 [&>div]:h-30 [&>div]:w-70">
+                    <h2 class="text-l font-medium mb-4 text-white font-inter text-left" >
+                    1. Dari Mana Loot Tsb?
+                    </h2>
+
+                    <div id="Image-Pick1" class="bg-white rounded-xs flex items-center justify-center mx-auto shrink-0">
+                        ssada
+                    </div>
+
+                    <div id="dropdown1" class="flex flex-col items-start gap-0 mb-1">
+                        <label for="player-select1" class="text-sm text-white">Pilih tampangnya</label>
+                        <select id="player-select1" class="w-44 bg-white text-gray-800 text-sm rounded-md px-3 py-1 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-400">
+                            <option>Player 1</option>
+                            <option>Player 2</option>
+                            <option>Player 3</option>
+                        </select>
+                    </div>
+
+                    <h2 class="text-l font-medium mt-1 mb-1 text-white font-inter text-left">
+                    2. Dimana player membunuh?
+                    </h2>
+                    
+                    <div id="Image-Pick1" class="bg-white rounded-xs flex items-center justify-center mx-auto shrink-0">
+                        ssada
+                    </div>
+
+                    <div id="dropdown2" class="flex flex-col items-start gap-0 mb-1">
+                        <label for="player-select2" class="text-sm text-white">Pilih tempatnya</label>
+                        <select id="player-select2" class="w-44 bg-white text-gray-800 text-sm rounded-md px-3 py-1 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-400">
+                            <option>Player 1</option>
+                            <option>Player 2</option>
+                            <option>Player 3</option>
+                        </select>
+                    </div>
+                    
+                </div>
+               
+
+                
+
+        </div>
+        </div>
+    </div>
+</body>
+</html>
